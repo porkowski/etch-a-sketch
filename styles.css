@@ -1,0 +1,55 @@
+body {
+    margin:0px;
+}
+
+
+#boxHome{
+display:flex;
+border-style:ridge;
+border-color: blue;
+border-width:20px;
+margin:auto;
+margin-top:0px;
+padding: 20px;
+justify-content:space-evenly;
+flex-wrap:wrap;
+flex-shrink:0;
+width: 627px;
+height: 608px;
+}
+
+#title{
+display:flex;
+justify-content: center;
+margin-bottom:0px;
+margin-top:0px;
+}
+
+#title img {
+    width: 350px;
+}
+
+#boxHome div {
+display:flex;
+flex-shrink:1;
+width:32px;
+height:32px;
+border-style:groove;
+border-color:rgb(214, 214, 214);
+}
+
+.hover {
+background-color:grey;
+}
+
+#sizingButton {
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+div button {
+    color:aquamarine;
+    background-color: black;
+    border-radius:8px;
+}
