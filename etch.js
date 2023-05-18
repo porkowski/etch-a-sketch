@@ -34,6 +34,22 @@ while (divBody.firstChild) {
 for(let i=0; i<(size*size); i++) {
     createDiv();
     }
+
+//check to see my equation for flex-basis percentage works
+console.log(`${((600/size)-6)/600}`);
+
+const flexBasis = (`${((600/size)-6)/600}`);
+console.log(parseFloat(flexBasis));
+
+for (let i=0;i<divBody.children.length;i++) {
+    divBody.children[i].style.flex = 1;
+    divBody.children[i].style.flexBasis = ""+ flexBasis*100 +"%";
+}
+
+
+
+
+
 } else alert("Read again! Choose a number between 0 and 100!");
 }
 //Mouseover eventlistener to newDiv

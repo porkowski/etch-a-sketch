@@ -12,10 +12,12 @@ margin:auto;
 margin-top:0px;
 padding: 20px;
 justify-content:space-evenly;
-flex-wrap:wrap;
+flex-flow:row wrap;
 flex-shrink:0;
-width: 627px;
-height: 608px;
+width: 600px;
+height: 600px;
+
+flex-wrap:wrap;
 }
 
 #title{
@@ -29,14 +31,20 @@ margin-top:0px;
     width: 350px;
 }
 
+/* children below */
 #boxHome div {
 display:flex;
-flex-shrink:1;
-width:32px;
-height:32px;
 border-style:groove;
 border-color:rgb(214, 214, 214);
+flex-grow:1;
+flex-shrink:1;
+flex-basis:5.25%; /* ((600/16)-6) divided by 600 */
+
 }
+
+
+
+
 
 .hover {
 background-color:grey;
