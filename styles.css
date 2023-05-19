@@ -47,7 +47,7 @@ flex-basis:5.25%; /* ((600/16)-6) divided by 600 */
 
 
 .hover {
-background-color:grey;
+background-color:black;
 }
 
 #sizingButton {

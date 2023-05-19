@@ -12,6 +12,8 @@ function createDiv() {
     const newDiv = document.createElement("div");
     newDiv.setAttribute('class','boxes');
     divBody.appendChild(newDiv);
+    newDiv.addEventListener("mouseover",(e) => {
+        e.target.classList.add("hover")});
 }
 
 const newDiv = document.querySelectorAll("div.boxes");
